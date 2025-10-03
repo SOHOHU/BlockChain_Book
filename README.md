@@ -18,6 +18,7 @@
 | **9.29 - 9.30** | **Defi lending system / ZKP (KZG)** | **Defi 借贷体系** 初步理解与原理分析。<br>**ZKP** 进阶知识学习：**KZG 承诺**。 |
 | **9.30 - 10.1** | **Oracle / ZKP** | **预言机** 初步理解与原理分析。<br>**ZKP** 知识补充：**PLONK算术化和证明过程详细解释**。 |
 | **10.1 - 10.2** | **ZKP / Traditional Finance / Stablecoin** | **ZKP** ZK-Lookup深度理解。<br>**传统金融(复习)** 。**稳定币(复习)** |
+| **10.2 - 10.3** | **ZKP / Token Economy** | **ZKP** ZK-Lookup深度理解(2)。<br>**Token Economy** : 课程知识总结 |
 -----
 
 ## ⏳ 后续学习计划展望 (2025.10 - 2026.11)
