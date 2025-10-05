@@ -20,7 +20,7 @@
 | **10.1 - 10.2** | **ZKP / Traditional Finance / Stablecoin** | **ZKP** ZK-Lookup深度理解。<br>**传统金融(复习)** 。**稳定币(复习)** |
 | **10.2 - 10.3** | **Token Economy** | <br>**Token Economy** : 课程知识全部总结 |
 | **10.3 - 10.4** | **ZKP** | <br>**ZKP** : ZK-Lookup：Logup |
-| **10.5 - 10.6** | **Solidity** | <br>**Solidity Test** : 做一些Solidity的基本练习 |
+| **10.5 - 10.6** | **Solidity** | <br>**Solidity Test/BasicKnowledge** : 做一些Solidity的基本练习 |
 
 
 -----
