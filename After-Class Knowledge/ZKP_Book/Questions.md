@@ -28,7 +28,7 @@
 
 **证明者生成证明的起点，是把所有需要验证的检查列表转换成一个代数约束系统。**
 
-无论使用哪种具体的 ZKP 方案（如 zk-SNARK 或 zk-STARK），Alice 都要将她需要证明的四个关键验证条件转化为一个巨大的**代数电路**或**约束系统**：
+无论使用哪种具体的 ZKP 方案（如 zk-SNARK 或 zk-STARK），Alice 都要将她需要证明的四个关键验证条件（详见Achieving Decentralized Private Computation）转化为一个巨大的**代数电路**或**约束系统**：
 
 * **价值守恒：** 转化为一个简单的代数等式：$V_{in} = V_{out1} + V_{out2} + F_{fee}$。
 * **哈希一致性：** 转化一系列代数约束，确保 $\text{Hash}(\text{Value}, pkA, rA) = commitment\_in$。

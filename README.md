@@ -23,7 +23,7 @@
 | **10.4 - 10.5** | **Solidity** | <br>**Solidity Test/BasicKnowledge** : 做一些Solidity的基本练习 |
 | **10.5 - 10.6** | **ZKP / Decentralized Identity** | <br>**ZKP** : 进阶知识学习：**ZKVM基本原理理解**。<br>**Decentralized Identity**: 初步理解与原理分析 |
 | **10.6 - 10.7** | **ZKP / DDEX** | <br>**ZKP** : 进阶知识学习：**用ZK实现去中心化加密计算**。<br>**DDEX**: 初步理解与原理分析 + Hyperliquid原理理解 |
-
+| **10.7 - 10.9** | **Dapp / Go Test** | <br>**Go Test** : 基本语法学习 + 基于Web3的实战。<br>**Dapp**: 实战：实现一个基于LayerZero的跨链桥API |
 
 -----
 
