@@ -21,7 +21,7 @@
 | **10.6 - 10.7** | **ZKP / DDEX** | <br>**ZKP** : 进阶知识学习：**用ZK实现去中心化加密计算**。<br>**DDEX**: 初步理解与原理分析 + Hyperliquid原理理解 |
 | **10.7 - 10.11** | **Go Test** | <br>**Go Test** : 基本语法学习 + 基于Web3的实战。 |
 | **10.10 - 10.11** | **ZKP** | <br>**ZKP** : ZK-Rollup复习，笔记更新 + ZK-Swap基本理解 |
-| **10.11 - 10.13** | **ZKP / Cryptography** | <br>**ZKP** : Nova 基本礼节。<br>**Cryptography** : 课程知识全部总结 |
+| **10.11 - 10.13** | **ZKP / Cryptography** | <br>**ZKP** : Nova 基本理解。<br>**Cryptography** : 课程知识全部总结 |
 
 -----
 
