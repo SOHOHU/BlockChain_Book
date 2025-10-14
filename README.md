@@ -22,6 +22,7 @@
 | **10.7 - 10.11** | **Go Test** | <br>**Go Test** : 基本语法学习 + 基于Web3的实战。 |
 | **10.10 - 10.11** | **ZKP** | <br>**ZKP** : ZK-Rollup复习，笔记更新 + ZK-Swap基本理解 |
 | **10.11 - 10.13** | **ZKP / Cryptography** | <br>**ZKP** : Nova 基本理解。<br>**Cryptography** : 课程知识全部总结 |
+| **10.13 - 10.14** | **ZKP** | <br>**ZKP** : Halo2 基本理解 |
 
 -----
 
