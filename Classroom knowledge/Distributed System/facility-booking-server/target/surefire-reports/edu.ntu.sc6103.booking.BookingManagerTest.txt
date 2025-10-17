@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: edu.ntu.sc6103.booking.BookingManagerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 s -- in edu.ntu.sc6103.booking.BookingManagerTest
