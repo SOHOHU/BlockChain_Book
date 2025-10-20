@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: edu.ntu.sc6103.booking.MessageMarshallerTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s -- in edu.ntu.sc6103.booking.MessageMarshallerTest

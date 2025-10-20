@@ -23,7 +23,7 @@
 | **10.10 - 10.11** | **ZKP** | <br>**ZKP** : ZK-Rollup复习，笔记更新 + ZK-Swap基本理解 |
 | **10.11 - 10.13** | **ZKP / Cryptography** | <br>**ZKP** : Nova 基本理解。<br>**Cryptography** : 课程知识全部总结 |
 | **10.13 - 10.14** | **ZKP** | <br>**ZKP** : Halo2 基本理解 |
-| **10.14 - 10.16** | **Distributed System** | <br>***Distributed System** : 课程知识全部总结 + 课程大作业 |
+| **10.14 - 10.16** | **Distributed System** | <br>***Distributed System** : 课程知识全部总结 + 课程大作业 | 
 
 -----
 
