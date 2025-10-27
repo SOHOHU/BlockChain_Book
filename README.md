@@ -24,7 +24,8 @@
 | **10.14 - 10.16** | **Distributed System** | <br>***Distributed System** : 课程知识全部总结 + 课程大作业 | 
 | **10.17 - 10.18** | **Cryptography/Project** | <br>**Project** : 课程大作业：攻击DLP | 
 | **10.18 - 10.19** | **Introduction of Blockchain** | <br>**Introduction of Blockchain** : 课程知识全部总结 | 
-| **10.20 - 10.21** | **1inch_Chinese** | <br>**1inch_Chinese** :  核心合约代码逐行深度解析。| 
+| **10.20 - 10.21** | **1inch_Chinese** | <br>**1inch_Chinese** :  核心合约代码逐行深度解析。|
+| **10.22 - 10.23** | **x402** | <br>**x402** :  基本原理理解。|  
 -----
 
 ## 🌟 里程碑
