@@ -26,6 +26,9 @@
 | **10.18 - 10.19** | **Introduction of Blockchain** | <br>**Introduction of Blockchain** : 课程知识全部总结 | 
 | **10.20 - 10.21** | **1inch_Chinese** | <br>**1inch_Chinese** :  核心合约代码逐行深度解析。|
 | **10.22 - 10.23** | **x402** | <br>**x402_Book** :  基本原理理解。|  
+| **10.24 - 10.25** | **Payfi** | <br>**Payfi** :  Payfi随手记，了解一些知识和常用术语|  
+-----
+## 第一学期结束
 -----
 
 ## 🌟 里程碑
