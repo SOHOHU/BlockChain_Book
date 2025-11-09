@@ -1,0 +1,28 @@
+{
+  "name": "buy-me-a-coffee-frontend",
+  "version": "1.0.0",
+  "description": "Buy Me A Coffee DApp - 基于 Kaia 区块链的去中心化打赏应用",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "next": "^16.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5"
+  }
+}

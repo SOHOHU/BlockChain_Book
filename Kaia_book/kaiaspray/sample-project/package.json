@@ -1,0 +1,17 @@
+{
+  "name": "kaiaspray-sample-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:kaiaspray": "npx hardhat run scripts/deploy.js --network kaiaspray"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.5"
+  }
+}
+
