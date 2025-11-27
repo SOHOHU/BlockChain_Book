@@ -1,2 +1,2 @@
 [workspace]
-members = ["closures","control_flow","funcs_mods", "generics_lab", "hashmap_lab","hello_world", "iter_lab", "methods_lab", "option_playground", "pattern_match", "structs_lab", "thread_lab", "time_lab", "var_types", "vector_lab"]
+members = ["async_lab","cargo_tools_lab","closures","control_flow", "default_lab", "dyn_lab", "file_lab","funcs_mods", "generics_lab", "hashmap_lab","hello_world", "iter_lab", "methods_lab", "operator_overload_lab", "option_playground", "pattern_match", "regex_lab", "rustdoc_lab", "structs_lab", "thread_lab", "time_lab", "tokio_lab", "var_types", "vector_lab"]

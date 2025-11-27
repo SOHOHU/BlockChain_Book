@@ -1,16 +1,16 @@
 use std::{
     ops::AddAssign,
-    sync::{Mutex, MutexGuard},
-    thread::{self, Scope, spawn},
+    sync::{Mutex, MutexGuard, mpsc::Receiver},
+    thread::{self, Scope, spawn}, time::Duration,
 };
 
 // 线程相关练习入口：后续在此添加 std::thread / join / channel 等示例
 fn main() {
     println!("== 线程练习 ==");
-    // test_thread();// TODO: 在这里调用你的线程示例函数
+    test_thread();// TODO: 在这里调用你的线程示例函数
     // test_scope();
     // 总之，用锁就要确保安全，完善代码避免死锁
-    test_mutex();
+    // test_mutex();
 }
 
 fn test_thread() {
@@ -37,6 +37,50 @@ fn test_thread() {
     let handle2: std::thread::JoinHandle<_> = spawn(myfn2);
     handle.join();
     handle2.join();
+
+    // channel, 机制和go类似
+    let (tx, rx) = std::sync::mpsc::channel::<u8>();
+    let tx2 = tx.clone();
+
+    println!("Send Message");
+    // 向通道发送消息
+    let ret = tx2.send(100);
+    println!("Message is {}", ret.is_ok());
+
+    // drop(rx); 关闭接收者，发送就会失败
+    // rece_timeout是一个防阻塞的，超时自动关闭接收者
+
+    let rec_ret = rx.recv();
+    println!("rec, {}", rec_ret.is_ok());
+    println!("rec, {}", rec_ret.unwrap());
+
+
+    tx2.send(200);
+    // 再发送后紧跟就可以接收
+    let rec_ret = rx.recv();
+    println!("rec, {}", rec_ret.is_ok());
+    println!("rec, {}", rec_ret.unwrap());
+
+    let fn1 = move || {
+        println!("Send Message");
+        loop {
+            let Receiver = rx.recv_timeout(Duration::from_millis(500));
+            println!("rec, {}", Receiver.is_ok());
+            println!("rec, {}", Receiver.unwrap());
+        };
+    };
+
+    // 主线程发送消息
+    for i  in 1..10 {
+        let ret = tx2.send(i);
+        println!("Message is {}", ret.is_ok());
+        println!("Send Message {}", i);
+        std::thread::sleep(Duration::from_millis(500));
+    }
+
+    // 另起一个线程接收消息
+    let handle: std::thread::JoinHandle<_> = spawn(fn1);
+    handle.join();
 }
 
 struct person {

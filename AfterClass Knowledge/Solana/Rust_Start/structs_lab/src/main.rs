@@ -45,6 +45,19 @@ fn newperson() -> Person {
     return p1;
 }
 
+// 对于rust而言，结构就是类，可以使用impl为结构增加函数
+impl Vehicle {
+    fn run(&self) {
+        println!("Vehicle run");
+    }
+}
+
+impl Person {
+    fn run(&self) {
+        println!("Person run");
+    }
+}
+
 fn main() {
     println!("== 结构体练习 ==");
     let HSQ: Person = newperson();
@@ -57,4 +70,6 @@ fn main() {
     let Hcar: Vehicle = newcar();
     // 逍遥输出自定义枚举，使用我们在option中的方法，#【derive（debug）】加在自定义类型声明之前，本例子就是enum
     println!("Hcar is {:?}, and {}", Hcar.color, Hcar.year );
+    Hcar.run();
+    HSQ.run();
 }
